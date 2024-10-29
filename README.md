@@ -57,16 +57,16 @@ Before you begin, ensure you have met the following requirements:
   Here are some example test cases that you can run using `curl` to interact with the URL shortener application:
 
   1. **Shorten a URL**:
-    ```sh
-    curl -X POST -H "Content-Type: application/json" -d '{"url": "https://example.com"}' http://localhost:3000/shorten
-    ```
+  ```sh
+  curl -X POST -H "Content-Type: application/json" -d '{"url": "https://example.com"}' http://localhost:3000/shorten
+  ```
 
-  2. **Retrieve the original URL**:
-    ```sh
-    curl http://localhost:3000/1
-    ```
+  3. **Retrieve the original URL**:
+  ```sh
+  curl http://localhost:3000/1
+  ```
 
-  3. **Retrieve the top URLs**:
+  4. **Retrieve the top URLs**:
   ```sh
   curl http://localhost:3000/urls/top
   ```
